@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: farosolutions-app
-        image: farotestregistry.azurecr.io/jebara7/farosolutions-app:#{Build.BuildId}#
+        image: farotestregistry.azurecr.io/jebara7/farosolutions-app:latest
         ports:
         - containerPort: 80
 # service type loadbalancer       
